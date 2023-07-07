@@ -1,23 +1,48 @@
+# print تعني طباعة , input تعني ادخال
+#print("Hello " + input("What is your name"))
 
-       #{Band Name Generator}#
+# تم تعريف str لحمل قيمة من المستخدم
+#str = input("What is your name? ")
+# len لحساب طول القيمة
+#print(len(str))
+
+#name = input("What is your name?")
+#print(name)
+
+#num1 = input("a: ")
+#num2 = input("b: ")
+
+#print("b:" + num2)
+#print("a:" + num1)
 
 #print("Welcome to the Band Name Generator.")
+
 #print("What's name of the city you grew up in?")
 #city = input()
 #print("What's your pet's name?")
 #pet = input()
 #print("Your band name could be " + city + "" + pet)
 
-              #{The Number Game}#
-
+#
 # two_numbers = input("Type a two digit number: ")
 # print(int(two_numbers[0]) + int(two_numbers[1]))
 # first_num = two_numbers[0]
 # seconde_num = two_numbers[1]
+#
 # the_final_result = int(first_num) + int(seconde_num)
 # print(the_final_result)
+#
+# print(3 * (3 + 3) / 3 - 3)
 
-           #{BMI}#
+# height = input("enter your height:  ")
+# weight = input("enter your weight:  ")
+#
+# height1 = (float(height))
+# weight2 = (int(weight))
+#
+# result = int(weight2 / (height1 * height1))
+# print(result)
+
 
 #height = input("enter your height : ")
 #weight = input("enter your weight : ")
@@ -27,22 +52,24 @@
 #BMI_int = int(BMI)
 #print(BMI_int)
 
-           #{Calculate The Months and weeks and days an your age}#
 
+#
 # age = int(input("What is your current age? "))
 # ags_as_int = int(age)
 # years_remaning = 90 - ags_as_int
+#
 # the_days = (years_remaning * 365)
 # the_weeks = (years_remaning * 52)
 # the_months = (years_remaning * 12)
+#
 # print(f"You have {the_days} days, {the_weeks} weeks, and {the_months} months left.")
 
-         #{Tip Calculater}#
 
 # print("Welcome to the tip calculater.")
 # bill = float(input("What was the total bull? $"))
 # tip = int(input("What percentage tip would you like to give? 10, 12 , or 15? "))
 # people = int(input("How many people to split the bill? "))
+#
 # tip_as_percent = tip / 100
 # total_tip_amount = bill * tip_as_percent
 # total_bill = bill + total_tip_amount
@@ -52,6 +79,7 @@
 # print(f"Each person should pay: ${final_amount} ")
 
              #{Rollercoaster Game}#
+
 
 # print("Welcome to the rollercoaster!")
 # height = int(input("What is your height in cm? "))
@@ -79,7 +107,7 @@
 #     else:
 #      print("Sorry, you have grow taller before you can ride.")
 
-               #{Tip Calculater}#
+
 
 # number = int(input("Which number do you want to check? "))
 #
@@ -88,8 +116,12 @@
 #
 # else:
 #     print("This is even number")
+#
+
+
 
              #{Body Mass Index (BMI)}#
+
 
 # height = float(input("enter your height in m: "))
 # weight = int(input("enter your weight in kg: "))
@@ -108,6 +140,10 @@
 # elif final_bim > 35:
 #     print(f"Your BMI is {final_bim},you are clinically obese")
 
+
+
+
+
           #{Culcaletor For Leap Yers}#
 
 # the_year = int(input("Which year do you want to check? "))
@@ -121,7 +157,10 @@
 # else:
 #     print("Not leap year.")
 
-              #{Python Pizza Deliveries!}
+
+
+                    #{Python Pizza Deliveries!}
+
 
 # print("Welcome to Python Pizza Deliveries!")
 # size = input("What size pizza do you want? S, M, or L ")
@@ -147,28 +186,29 @@
 #
 # print(f"Your final bill is: ${bill}.")
 
+
                 #{Love Calcilater}#
 
 # print("Welcoem to the Love calculater!")
 # name1 = input(("What is your name? \n"))
 # name2 = input(("What is her name? \n"))
-
+#
 # combined_string = name1 + name2
 # lower_case_string = combined_string.lower()
 # t = lower_case_string.count("t")
 # r = lower_case_string.count("r")
 # u = lower_case_string.count("u")
 # e = lower_case_string.count("e")
-
+#
 # true = t + r + u + e
-
+#
 # l = lower_case_string.count("l")
 # o = lower_case_string.count("o")
 # v = lower_case_string.count("v")
 # e = lower_case_string.count("e")
-
+#
 # love = l + o + v + e
-
+#
 # love_score = int(str(true) + str(love))
 # if (love_score < 10) or (love_score > 90):
 #     print(f"Your love score is {love_score},you go together like coke and mentos.")
@@ -176,4 +216,4 @@
 #     print(f"Your score is {love_score},you are alright together.")
 # else:
 #     print(f"Your score is {love_score}")
-
+#
