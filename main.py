@@ -177,3 +177,158 @@
 # else:
 #     print(f"Your score is {love_score}")
 
+                    #{Treasure Island Game!}#
+
+# print('''
+# *******************************************************************************
+#           |                   |                  |                     |
+#  _________|________________.=""_;=.______________|_____________________|_______
+# |                   |  ,-"_,=""     `"=.|                  |
+# |___________________|__"=._o`"-._        `"=.______________|___________________
+#           |                `"=._o`"=._      _`"=._                     |
+#  _________|_____________________:=._o "=._."_.-="'"=.__________________|_______
+# |                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
+# |___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
+#           |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
+#  _________|___________| ;`-.o`"=._; ." ` '`."\` . "-._ /_______________|_______
+# |                   | |o;    `"-.o`"=._``  '` " ,__.--o;   |
+# |___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
+# ____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
+# /______/______/______/_"=._o--._        ; | ;        ; ;/______/______/______/_
+# ____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
+# /______/______/______/______/____"=._o._; | ;_.--"o.--"_/______/______/______/_
+# ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
+# /______/______/______/______/______/______/______/______/______/______/_____ /
+# *******************************************************************************
+# ''')
+# print("Welcome to Treasure Island.")
+# print("Your mission is to find the treasure.")
+#
+# choice1 = input(("You're at a cross road. Where do you want to go? Type 'left' or 'right' ")).lower()
+#
+# if choice1 == "left":
+#    choice2 = input('You\'ve come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across. ').lower()
+#    if choice2 == "wait":
+#       choice3 = input("You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose?").lower()
+#    if choice3 == "red":
+#        print("It's a room full of fire. Game Over.")
+#    elif choice3 == "yellow":
+#        print("You found the treasure! You Win!")
+#    elif choice3 == "blue":
+#        print("you enter a room of beasts. Game Over.")
+#    else:
+#        print("You chose a door that doesn't exist. Game Over.")
+#    else:
+#    print("You got attacked by angry trout. Game Over.")
+#   else:
+#    print("Fall into a hole. \n Game Over.")
+
+         #{Random Number 1, 10}#
+
+# import random
+#
+# random_int = random.randint(1, 10)
+# print(random_int)
+#
+# random_float = random.random()
+# print(random_float)
+
+          #{if the number = 1 the output = Tails etc..}#
+
+# import random
+#
+# Heads_or_Tails = random.randint(0, 1)
+#
+# if Heads_or_Tails == 1:
+#     print("Heads")
+# else:
+#     print("Tails")
+
+              #{Who will pay the?}#
+
+# import random
+# names_string = input("Give me everybody's names, separated by a comma. ")
+# names = names_string.split(", ")
+#
+# num_items = len(names)
+# random_choice = random.randint(0, num_items - 1)
+#
+# person_who_will_pay = names[random_choice]
+#
+# print(person_who_will_pay + " is going to buy the meal today!")
+
+
+# fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+# vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+# dirty_dozen = [fruits, vegetables]
+# print(dirty_dozen[0][1])
+
+             #{Welcomt to the treeasure Map Game}#
+
+# map1 = ['⬜️', '⬜️', '⬜️']
+# map2 = ['⬜️', '⬜️', '⬜️']
+# map3 = ['⬜️', '⬜️', '⬜️']
+# map = [map1, map2, map3]
+# print(f"{map1}\n{map2}\n{map3}")
+#
+# position = input(("Where do you want to put the treeasure? "))
+#
+# horizontal = int(position[0])
+# vertical = int(position[1])
+# map[vertical - 1][horizontal - 1] = "X"
+#
+# print(f"{map1}\n{map2}\n{map3}")
+
+           #{ Rock Paper Scissors Game}#
+
+# import random
+#
+# rock = '''
+#     _______
+# ---'   ____)
+#       (_____)
+#       (_____)
+#       (____)
+# ---.__(___)
+# '''
+#
+# paper = '''
+#     _______
+# ---'   ____)____
+#           ______)
+#           _______)
+#          _______)
+# ---.__________)
+# '''
+#
+# scissors = '''
+#     _______
+# ---'   ____)____
+#           ______)
+#        __________)
+#       (____)
+# ---.__(___)
+# '''
+# game_images = [rock, paper, scissors]
+# user_choice = int(input(("What to you choice? Type 0 fot Rock, 1 for Paper or 2 for Scissors\n")))
+# if user_choice >= 3 or user_choice < 0:
+#     print("You typed an invalid number, you lose!")
+#
+# else:
+#  print(game_images[user_choice])
+#
+# computer_choice = random.randint(0, 2)
+# print("Computer choice")
+# print(game_images[computer_choice])
+#
+# if user_choice == 0 and computer_choice ==2:
+#     print("You win!")
+# elif computer_choice ==0 and user_choice ==2:
+#     print("You lose!")
+# elif computer_choice > user_choice:
+#     print("You lose!")
+# elif user_choice > computer_choice:
+#     print("You win!")
+# elif computer_choice == user_choice:
+#     print("It's a draw")
+
